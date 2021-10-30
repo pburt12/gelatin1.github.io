@@ -34,5 +34,16 @@ img.center{
 }
 table{
 	margin-left:auto;
-	margin-right:auto
+	margin-right:auto;
+}
+#twelve-char {
+        font-size: 28px;
+        margin-left: 5em;
+}
+#number-12 {
+      	font-size: 32px;
+        text-align: center;
+}
+#fourstickmen-text {
+	font-size: 32px;
 }
