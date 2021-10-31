@@ -1,7 +1,7 @@
 body{
 	background-color:lightgreen;
 }
-#text{
+#text,.socials-container{
 	font-family:verdana;
 }
 #text.center{
@@ -13,7 +13,7 @@ img.center{
 	margin-right:auto;
 	width:128px;
 }
-.center {
+.center,table {
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -30,15 +30,8 @@ img.center{
 	margin-top:2px;
 	margin-bottom:2px;
 }
-.socials-container{
-	font-family:verdana;
-}
 .socials-image{
 	width:16px;
-}
-table{
-	margin-left:auto;
-	margin-right:auto;
 }
 #twelve-char {
         font-size: 28px;
