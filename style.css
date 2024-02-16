@@ -1,10 +1,10 @@
 body{
 	background-color:lightgreen;
 }
-#text,.socials-container{
+.text.socials-container{
 	font-family:verdana;
 }
-#text.center{
+.text.center{
 	text-align:center;
 }
 img.center{
