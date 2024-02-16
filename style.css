@@ -1,10 +1,11 @@
 body{
 	background-color:lightgreen;
 }
-.text.socials-container{
+.text{
 	font-family:verdana;
 }
 .text.center{
+	font-family:verdana;
 	text-align:center;
 }
 img.center{
