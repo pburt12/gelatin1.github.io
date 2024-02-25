@@ -1,7 +1,7 @@
 body{
 	background-color:lightgreen;
 }
-h1,p,a{
+h1,p,a,table{
 	font-family:verdana;
 }
 .center{
@@ -13,7 +13,7 @@ img.center{
 	margin-right:auto;
 	width:128px;
 }
-.center,table {
+table.center {
 	margin-left:auto;
 	margin-right:auto;
 }
