@@ -1,11 +1,10 @@
 body{
 	background-color:lightgreen;
 }
-.text{
+h1,p,a{
 	font-family:verdana;
 }
-.text.center{
-	font-family:verdana;
+.center{
 	text-align:center;
 }
 img.center{
