@@ -6,16 +6,14 @@ h1,p,a,td{
 }
 .center{
 	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
 }
-.center,img{
+img.center{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 	width:128px;
-}
-.center,table {
-	margin-left:auto;
-	margin-right:auto;
 }
 .footer{
 	background-color:green;
