@@ -2,6 +2,10 @@ body{
 	font-family:verdana;
 	background-color:lightgreen;
 }
+a{
+	text-decoration:none;
+	color:black;
+}
 .center{
 	text-align:center;
 	margin-left:auto;
@@ -40,6 +44,7 @@ button{
 .gamebutton:hover{
 	background-color:#07edc7;
 	color:white;
+	text-decoration:underline
 }
 .socials-image{
 	width:16px;
