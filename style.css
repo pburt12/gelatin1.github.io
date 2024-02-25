@@ -7,13 +7,13 @@ h1,p,a,table{
 .center{
 	text-align:center;
 }
-img.center{
+.center,img{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 	width:128px;
 }
-table.center {
+.center,table {
 	margin-left:auto;
 	margin-right:auto;
 }
