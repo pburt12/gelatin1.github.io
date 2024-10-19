@@ -4,23 +4,18 @@
 		<link rel="stylesheet" href="/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta property="og:type" content="website">
-		<meta property="og:site_name" content="Toltally Peter's Website">
-		<meta property="og:title" content="Toltally Peter's Website">
+		<meta property="og:site_name" content="Totally Peter's Website">
+		<meta property="og:title" content="Totally Peter's Website">
 		<meta property="og:description" content="This is my super FUN website.">
 		<meta property="og:image" content="/img/koala.png">
-		<title>Toltally Peter's Website</title>
+		<title>Totally Peter's Website</title>
 		<link rel="icon" href="/img/koala.png">
-		<script>
-			var c = document.getElementById("myCanvas");
-			var ctx = c.getContext("2d");
-			var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
-
-			grd.addColorStop(0, "red");
-			grd.addColorStop(1, "white");
-
-			ctx.fillStyle = grd;
-			ctx.fillRect(10, 10, 150, 80);
-		</script>
+		<style>
+			.peterkoala{
+				max-width: 100%;
+				height: auto;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="header">
@@ -35,7 +30,7 @@
 			<p>
 				maybe by Peter
 			</p>
-			<img src="koala.png" style="max-width:100%;height:auto;">
+			<img src="/img/koala.png" alt="koala" class="peterkoala">
 		</div>
 	</body>
 </html>
