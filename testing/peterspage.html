@@ -10,19 +10,17 @@
 		<meta property="og:image" content="/img/koala.png">
 		<title>Toltally Peter's Website</title>
 		<link rel="icon" href="/img/koala.png">
-  
-     <script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
+		<script>
+			var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+			var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
 
-var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
-grd.addColorStop(0, "red");
-grd.addColorStop(1, "white");
+			grd.addColorStop(0, "red");
+			grd.addColorStop(1, "white");
 
-ctx.fillStyle = grd;
-ctx.fillRect(10, 10, 150, 80);
-      </script>
-        
+			ctx.fillStyle = grd;
+			ctx.fillRect(10, 10, 150, 80);
+		</script>
 	</head>
 	<body>
 		<div class="header">
@@ -33,9 +31,11 @@ ctx.fillRect(10, 10, 150, 80);
 				<a href="/testing">Back</a>
 			</button>
 		</div>
-    <div>
-<p>maybe by Peter</p>
-<img src="koala.png" style="max-width:100%;height:auto;">
-     </div>   
-  </body>
+		<div>
+			<p>
+				maybe by Peter
+			</p>
+			<img src="koala.png" style="max-width:100%;height:auto;">
+		</div>
+	</body>
 </html>
